@@ -1,0 +1,86 @@
+body {
+    position: relative;
+    width: 1440px;
+    height: 2111px;
+
+    /* Preto/05% */
+
+    background: #F5F5F5;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 0px;
+
+    position: static;
+    width: 1136px;
+    height: 115px;
+    left: 152px;
+    top: 0px;
+
+    /* Preto/branco */
+
+    background: #FFFFFF;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+}
+
+.logo {
+    position: static;
+    width: 176px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 32px;
+}
+
+.busca {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 16px;
+
+    position: static;
+    width: 393px;
+    height: 40px;
+    left: calc(50% - 393px/2 + 104px);
+    top: 5px;
+
+    /* Preto/05% */
+
+    background: #F5F5F5;
+    border-radius: 20px;
+}
+
+.busca input {
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 32px;
+    background: #F5F5F5;
+    border: 0;
+}
+
+.busca img {
+    position: absolute;
+    left: 12.5%;
+    right: 16.47%;
+    top: 12.5%;
+    bottom: 16.43%;
+}
+
