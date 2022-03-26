@@ -1,114 +1,17 @@
 body {
-    width: 100%;
-    height: 2111px;
-    background: #F5F5F5;
-}
-
-header {
-    width: 100%;
-    height: 467px;
-    display: flex;
-    flex-direction: column;
-    justify-content: stretch;
-    align-items: center;
-    padding: 0;
-    background: #FFFFFF;
-
+    width: 100vw;
+    height: 100vh;
 }
 
 .top-header {
-    width: 1440px;
-    height: 115px;
     display: flex;
-    flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    
-    flex-grow: 0;
+
+    width: 100vw;
+    height: 12vh;
 }
 
-.logo {
-    position: static;
-    width: 176px;
-    height: 50px;
-    left: 0px;
-    top: 0px;
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 0px 32px;
+.top-header .botao-acesso {
+    margin-left: 30rem;
 }
-
-.busca {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    padding: 8px 16px;
-
-    position: static;
-    width: 393px;
-    height: 40px;
-    left: calc(50% - 393px/2 + 104px);
-    top: 5px;
-
-    background: #F5F5F5;
-    border-radius: 20px;
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 0px 32px;
-}
-
-.busca input {
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    margin: 0px 32px;
-    background: #F5F5F5;
-    border: 0;
-}
-
-.busca img {
-    position: static;
-    width: 24px;
-    height: 24px;
-    right: 16px;
-    top: 8px;
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    margin: 0px 8px;
-}
-
-.botao-acesso {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 16px;
-
-    position: static;
-    width: 182px;
-    height: 51px;
-    left: 954px;
-    top: 32px;
-
-    border: 1px solid #2A7AE4;
-    box-sizing: border-box;
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    margin-left: 530px;
-
-    color: #2A7AE4;
-}
-
-.botton-header img {
-    width: 100%;
-}
-
