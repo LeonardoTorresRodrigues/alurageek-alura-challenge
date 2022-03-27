@@ -4,14 +4,33 @@ body {
 }
 
 .top-header {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-
     width: 100vw;
     height: 12vh;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.top-header .botao-acesso {
-    margin-left: 30rem;
+.logo-busca {
+    display: flex;
+    align-items: center;
+
+    height: 30%;
+}
+
+.logo-busca input {
+    margin-left: 2rem;
+}
+
+.botao-acesso {
+    height: 30%;
+}
+
+.botton-header {
+    width: 100vw;
+}
+
+.banner {
+    width: 100vw;
 }
