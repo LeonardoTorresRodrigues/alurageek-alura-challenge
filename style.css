@@ -4,6 +4,8 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+/**Cabeçalho**/
+
 .top-header {
     width: 100%;
     height: 12vh;
@@ -98,4 +100,32 @@ body {
     color: #FFFFFF;
 
     border: none;
+}
+
+/**Produtos**/
+
+.produtos {
+    width: 80%;
+}
+
+.produtos {
+    width: 100%;
+}
+
+.star-wars-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.star-wars {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.card-star-wars {
+    width: 176px;
+    height: 252px;
+    margin: 0 1rem;
 }
