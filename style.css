@@ -1,14 +1,15 @@
 body {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
+    font-family: 'Raleway', sans-serif;
 }
 
 .top-header {
-    width: 100vw;
+    width: 100%;
     height: 12vh;
 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -20,17 +21,81 @@ body {
 }
 
 .logo-busca input {
+    font-size: 1rem;
+
     margin-left: 2rem;
+
+    width: 393px;
+    height: 40px;
+    left: calc(50% - 393px/2 + 104px);
+    top: 5px;
+    padding-left: 2rem;
+
+    background: #F5F5F5;
+    border-radius: 20px;
+    border: none;
+
+    background-image: url('/assets/icones/lupa.svg');
+    background-repeat: no-repeat;
+    background-position: center right 1rem;
+}
+
+.logo-busca img {
+    display: inline-block;
+    left: 2rem;
 }
 
 .botao-acesso {
-    height: 30%;
+    width: 182px;
+    height: 51px;
+    left: 954px;
+    top: 32px;
+
+    border: 1px solid #2A7AE4;
+    box-sizing: border-box;
+
+    color: #2A7AE4;
+    background: #FFFFFF;
 }
 
 .botton-header {
-    width: 100vw;
+    position: relative;
 }
 
-.banner {
-    width: 100vw;
+.banner-image {
+    width: 100%;
+    height: 50vh;
+    max-height: 22rem;
+    box-shadow: inset 0 0 150rem black;
+    background: url('/assets/banner/Hero.jpg') center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-text {
+   position: absolute;
+   bottom: 5rem;
+   left: 5rem; 
+   color:#FFFFFF;
+}
+
+.banner-text h2 {
+    font-size: 3rem;
+    padding-bottom: .7rem;
+}
+
+.banner-text p {
+    padding-bottom: .7rem;
+}
+
+.banner-text button {
+    width: 130px;
+    height: 51px;
+    left: 0px;
+    top: 119px;
+
+    background: #2A7AE4;
+    color: #FFFFFF;
+
+    border: none;
 }
