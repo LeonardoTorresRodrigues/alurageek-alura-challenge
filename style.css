@@ -105,26 +105,124 @@ body {
 /**Produtos**/
 
 .produtos {
-    width: 80%;
-}
-
-.produtos {
     width: 100%;
 }
+
+/*Star Wars*/
 
 .star-wars-top {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 2rem 4rem 1rem;
+}
+
+.star-wars-top h2 {
+    font-size: 2rem;
+    color: #464646;
+    font-weight: bold;
+}
+
+.redirex {
+    display: flex;
+    align-items: center;
+}
+
+.redirex a {
+    color: #2A7AE4;
+
+    text-decoration: none;
 }
 
 .star-wars {
-    width: 70%;
+    width: 100%;
     display: flex;
     justify-content: center;
 }
 
 .card-star-wars {
+    width: 176px;
+    height: 252px;
+    margin: 0 1rem;
+}
+
+/*Consoles*/
+
+.consoles-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 2rem 4rem 1rem;
+}
+
+.consoles-top h2 {
+    font-size: 2rem;
+    color: #464646;
+    font-weight: bold;
+}
+
+.redirex {
+    display: flex;
+    align-items: center;
+}
+
+.redirex a {
+    color: #2A7AE4;
+
+    text-decoration: none;
+}
+
+.consoles {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.card-consoles {
+    width: 176px;
+    height: 252px;
+    margin: 0 1rem;
+}
+
+/*Diversos*/
+
+.diversos-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 2rem 4rem 1rem;
+}
+
+.diversos-top h2 {
+    font-size: 2rem;
+    color: #464646;
+    font-weight: bold;
+}
+
+.redirex {
+    display: flex;
+    align-items: center;
+}
+
+.redirex a {
+    color: #2A7AE4;
+
+    text-decoration: none;
+}
+
+.diversos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.card-diversos {
     width: 176px;
     height: 252px;
     margin: 0 1rem;
