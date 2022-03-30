@@ -227,3 +227,54 @@ body {
     height: 252px;
     margin: 0 1rem;
 }
+
+/**Rodapé**/
+
+footer {
+    height: 470px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 368px;
+
+    background-color: #EAF2FD;
+}
+
+.footer-top {
+    display: flex;
+    margin: 3rem;
+}
+
+.footer-logo {
+    margin: 1rem;
+}
+
+.lista ul li {
+    margin: 0 1rem;
+    padding: .9rem;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.nome {
+    position: static;
+    width: 560px;
+    height: 56px;
+
+    border-radius: 4px;
+    border: none;
+}
+
+.mensagem {
+    position: static;
+    width: 560px;
+    height: 82px;
+    }
