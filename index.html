@@ -195,18 +195,26 @@
                         <li>Anuncie aqui</li>
                     </ul>
                 </div>
-                <div class="contato">
+                <form class="contato">
                     <h3>Fale conosco</h3>
-                    <input type="text" name="nome" class="nome" id="nome" placeholder="Nome">
-                    <input type="text" name="mensagem" class="mensagem" id="mensagem" placeholder="Escreva sua mensagem">
-                </div>
+                    <label class="label-nome" for="nome">
+                        Nome
+                        <input type="text" name="nome" class="nome" id="nome">
+                    </label>
+                    <label class="label-mensagem" for="mensagem">
+                        Escreva sua mensagem
+                        <input type="text" name="mensagem" class="mensagem" id="mensagem">
+                    </label>
+
+                    <button class="enviar-mensagem">Enviar Mensagem</button>
+                </form>
             </section>
         </section>
 
-        <section class="footer-botton">
+        <div class="footer-botton">
             <p>Desenvolvido por Leonardo Torres Rodrigues</p>
             <p>2022</p>
-        </section>
+        </div>
     </footer>
 </body>
 
