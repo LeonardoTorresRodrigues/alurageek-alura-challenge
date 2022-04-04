@@ -88,10 +88,12 @@ body {
 .banner-text h2 {
     font-size: 3rem;
     padding-bottom: .7rem;
+    font-weight: bold;
 }
 
 .banner-text p {
     padding-bottom: .7rem;
+    font-weight: bold;
 }
 
 .banner-text button {
@@ -112,6 +114,10 @@ body {
     width: 100%;
 }
 
+.price {
+    font-weight: bold;
+}
+
 /*Star Wars*/
 
 .star-wars-top {
@@ -129,14 +135,14 @@ body {
     font-weight: bold;
 }
 
-.redirex {
+.ver-tudo {
     display: flex;
     align-items: center;
 }
 
-.redirex a {
+.ver-tudo a {
     color: #2A7AE4;
-
+    font-weight: bold;
     text-decoration: none;
 }
 
@@ -150,6 +156,16 @@ body {
     width: 176px;
     height: 252px;
     margin: 0 1rem;
+}
+
+.card-star-wars p {
+    margin: .5rem 0 .5rem 0
+}
+
+.card-star-wars a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #2A7AE4;
 }
 
 /*Consoles*/
@@ -169,14 +185,14 @@ body {
     font-weight: bold;
 }
 
-.redirex {
+.ver-tudo {
     display: flex;
     align-items: center;
 }
 
-.redirex a {
+.ver-tudo a {
     color: #2A7AE4;
-
+    font-weight: bold;
     text-decoration: none;
 }
 
@@ -190,6 +206,16 @@ body {
     width: 176px;
     height: 252px;
     margin: 0 1rem;
+}
+
+.card-consoles p {
+    margin: .5rem 0 .5rem 0
+}
+
+.card-consoles a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #2A7AE4;
 }
 
 /*Diversos*/
@@ -209,14 +235,14 @@ body {
     font-weight: bold;
 }
 
-.redirex {
+.ver-tudo {
     display: flex;
     align-items: center;
 }
 
-.redirex a {
+.ver-tudo a {
     color: #2A7AE4;
-
+    font-weight: bold;
     text-decoration: none;
 }
 
@@ -230,6 +256,16 @@ body {
     width: 176px;
     height: 252px;
     margin: 0 1rem;
+}
+
+.card-diversos p {
+    margin: .5rem 0 .5rem 0
+}
+
+.card-diversos a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #2A7AE4;
 }
 
 /**Rodapé**/
@@ -246,6 +282,7 @@ footer {
     height: 368px;
 
     background-color: #EAF2FD;
+    margin-top: 2rem;
 }
 
 .footer-top {
@@ -266,6 +303,10 @@ footer {
     display: flex;
     flex-direction: column;
     margin: 1rem;
+}
+
+.contato h3 {
+    font-weight: bold;
 }
 
 .label-nome {
