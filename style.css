@@ -384,9 +384,3 @@ footer {
         align-items: center;
         margin-top: 2rem;
     }
-
-    @media screen and (max-width: 1440px) {
-        .banner-image {
-            width: 99%;
-        }
-    }
